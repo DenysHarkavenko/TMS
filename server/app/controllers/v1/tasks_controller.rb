@@ -1,4 +1,4 @@
-class API::TasksController < ApplicationController
+class V1::TasksController < ApplicationController
   before_action :set_project
   before_action :set_task, only: [:show, :update, :destroy]
 
