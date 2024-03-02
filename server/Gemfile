@@ -33,3 +33,5 @@ end
 
 
 
+
+gem "simple_token_authentication", "~> 1.18"
