@@ -6,7 +6,7 @@ class V1::SessionsController < ApplicationController
     if user&.valid_password?(params[:password])
       render json: user.as_json(only: [:email]), status: :created
     else
-      render json: { error: 'User not found or invalid credentials' }, status: :unauthorized
+      head(:unauthorized)
     end
   end
   # sign out
