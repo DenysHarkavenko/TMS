@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, Button, Flex, Input, Stack } from '@chakra-ui/react'
+import { Button, Flex, Input, Stack } from '@chakra-ui/react'
 
 const RegistrationPage: React.FC = () => {
   const [formData, setFormData] = useState({
