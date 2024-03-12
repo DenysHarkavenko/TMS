@@ -1,7 +1,6 @@
-# README
+# Server api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ # Project in progress, pls wait !)
 
 Things you may want to cover:
 
