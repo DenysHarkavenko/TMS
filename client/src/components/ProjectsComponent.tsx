@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 const ProjectsComponent: React.FC = () => {
   const [projects, setProjects] = useState<any[]>([])
-  const authToken = 'huHSHX_wY1FcNKskdafp'
-  const userEmail = 'user@example.com'
+  const authToken = 'ZS1v3F9rwA35YFTNQbEW'
+  const userEmail = 'gmail@example.com'
 
   useEffect(() => {
     const fetchProjects = async () => {
